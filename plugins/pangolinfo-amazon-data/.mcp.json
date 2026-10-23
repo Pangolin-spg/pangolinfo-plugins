@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "pangolinfo-amazon-data": {
+      "type": "http",
+      "url": "https://mcp.pangolinfo.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${PANGOLINFO_API_KEY}"
+      }
+    }
+  }
+}
