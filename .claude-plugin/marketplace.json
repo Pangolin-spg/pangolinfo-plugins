@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "pangolinfo-plugins",
+  "owner": {
+    "name": "Pangolinfo",
+    "email": "pangolin.spg@gmail.com"
+  },
+  "metadata": {
+    "description": "Official Pangolinfo plugins for Claude Code — live Amazon data for AI agents.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pangolinfo-amazon-data",
+      "source": "./plugins/pangolinfo-amazon-data",
+      "description": "Live Amazon product details, paginated customer reviews, keyword search, category and best-seller rankings in Claude Code — via the Pangolinfo Amazon Data MCP server, plus a bundled Amazon Scraper skill.",
+      "version": "1.0.0",
+      "author": { "name": "Pangolinfo" },
+      "homepage": "https://www.pangolinfo.com/amazon-data-mcp/",
+      "repository": "https://github.com/Pangolin-spg/pangolinfo-plugins",
+      "license": "MIT",
+      "keywords": ["amazon", "mcp", "scraper-api", "ecommerce-data", "reviews"],
+      "category": "productivity",
+      "tags": ["amazon", "mcp", "data", "ecommerce"]
+    }
+  ]
+}
