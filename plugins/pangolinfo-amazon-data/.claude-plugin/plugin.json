@@ -1,0 +1,13 @@
+{
+  "name": "pangolinfo-amazon-data",
+  "version": "1.0.0",
+  "description": "Live Amazon data for Claude Code: product details, paginated customer reviews, keyword search, category and best-seller rankings — via Pangolinfo's hosted Amazon Data MCP server, plus a bundled Amazon Scraper skill for direct API pipelines.",
+  "author": {
+    "name": "Pangolinfo",
+    "url": "https://www.pangolinfo.com"
+  },
+  "homepage": "https://www.pangolinfo.com/amazon-data-mcp/",
+  "repository": "https://github.com/Pangolin-spg/pangolinfo-plugins",
+  "license": "MIT",
+  "keywords": ["amazon", "mcp", "scraper", "ecommerce", "reviews", "product-data"]
+}
